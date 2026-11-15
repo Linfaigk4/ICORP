@@ -1,0 +1,32 @@
+export const TOKENS = {
+  colors: {
+    bgVoid: '#02060d',
+    bgCosmos: '#050d1a',
+    bgPanelDark: 'rgba(7, 19, 38, 0.74)',
+    bgPanelElevated: 'rgba(11, 29, 56, 0.82)',
+    bgCardActive: 'linear-gradient(135deg, rgba(0, 140, 255, 0.42) 0%, rgba(10, 42, 88, 0.85) 100%)',
+    cyanGlowBright: '#00e5ff',
+    cyanPrimary: '#18a0fb',
+    cyanMuted: '#3874a8',
+    blueAtmosphere: '#1d63b8',
+    statusNominal: '#10e87a',
+    statusNominalBg: 'rgba(8, 46, 34, 0.85)',
+    biometricCardiac: '#ff3b5c',
+    biometricThermal: '#ffb020',
+    statusAlert: '#ff3b3b',
+    statusWarning: '#f59e0b',
+    textPrimary: '#f4f8ff',
+    textSecondary: '#94b0d1',
+    textMuted: '#5b789c',
+  },
+  glass: {
+    blur: 'blur(16px) saturate(140%)',
+    border: '1px solid rgba(24, 160, 251, 0.32)',
+    borderActive: '1.5px solid rgba(0, 229, 255, 0.85)',
+    shadowCyanGlow: '0 0 24px rgba(0, 229, 255, 0.28), inset 0 0 18px rgba(0, 229, 255, 0.14)',
+  },
+  typography: {
+    fontBody: 'Inter, sans-serif',
+    fontHeading: 'Space Grotesk, sans-serif',
+  },
+} as const;
